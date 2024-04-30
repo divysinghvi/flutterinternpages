@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutterinternpages/home_page.dart';
+import 'package:flutterinternpages/pages/home_page.dart';
+import 'package:flutterinternpages/pages/login_page.dart';
+import 'package:flutterinternpages/pages/screen.dart';
 import 'package:flutterinternpages/utilities/bottom_nav_bar.dart';
 
 void main() {
@@ -13,7 +15,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home:HomePage(),
+      home:LoginPage(),
       debugShowCheckedModeBanner: false,
 
     );
